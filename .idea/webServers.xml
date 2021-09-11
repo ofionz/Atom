@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5a052ecf-c632-4196-892c-28de96fce0d7" name="Atom">
+        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="192.168.63.2" port="22" sshConfigId="532921d9-3255-4c68-a0af-a912397a7b42" sshConfig="Atom">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

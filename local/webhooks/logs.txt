@@ -1,0 +1,553 @@
+
+------------------------
+2021.06.07 7:27:02
+DEBUG
+SoapFault Object
+(
+    [message:protected] => Серверу не удалось обработать запрос. ---> Ссылка на объект не указывает на экземпляр объекта.
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => /home/bitrix/www/local/webhooks/sendsms.php
+    [line:protected] => 71
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/bitrix/www/local/webhooks/sendsms.php
+                    [line] => 71
+                    [function] => __soapCall
+                    [class] => SoapClient
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => SendCrmMessage
+                            [1] => Array
+                                (
+                                    [SendCrmMessage] => Array
+                                        (
+                                            [sPhoneNo] => 89226086699
+                                            [sMessageText] => Юрий, спасибо, что обратились в Атомстройкомплекс. Ждем вас по адресу: Беспроцентная рассрочка и скидка при 100 % оплате по ЖК "REPIN TOWERS". Жду Вас по адресу: ул. Белинского, д. 39. Отдел продаж "АТОМСТРОЙКОМПЛЕКС" .  07.06.2021 в 10:00 Ваш менеджер: Мария Кучеренко Тел.: 89221812351 E-mail: kucherenko@atomsk.ru Сайт: www.atomstroy.pro
+                                            [sSender] => Bitrix24 on Host.dom.ru
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/bitrix/www/local/webhooks/sendsms.php
+                    [line] => 150
+                    [function] => makeRequest
+                    [class] => SendSMS
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sPhoneNo] => 89226086699
+                                    [sMessageText] => Юрий, спасибо, что обратились в Атомстройкомплекс. Ждем вас по адресу: Беспроцентная рассрочка и скидка при 100 % оплате по ЖК "REPIN TOWERS". Жду Вас по адресу: ул. Белинского, д. 39. Отдел продаж "АТОМСТРОЙКОМПЛЕКС" .  07.06.2021 в 10:00 Ваш менеджер: Мария Кучеренко Тел.: 89221812351 E-mail: kucherenko@atomsk.ru Сайт: www.atomstroy.pro
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/bitrix/www/local/webhooks/sendsms.php
+                    [line] => 183
+                    [function] => send
+                    [class] => SendSMS
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [faultstring] => Серверу не удалось обработать запрос. ---> Ссылка на объект не указывает на экземпляр объекта.
+    [faultcode] => soap:Server
+    [detail] => 
+)
+
+------------------------
+
+------------------------
+2021.06.07 7:27:44
+DEBUG
+SoapFault Object
+(
+    [message:protected] => Серверу не удалось обработать запрос. ---> Ссылка на объект не указывает на экземпляр объекта.
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => /home/bitrix/www/local/webhooks/sendsms.php
+    [line:protected] => 71
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/bitrix/www/local/webhooks/sendsms.php
+                    [line] => 71
+                    [function] => __soapCall
+                    [class] => SoapClient
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => SendCrmMessage
+                            [1] => Array
+                                (
+                                    [SendCrmMessage] => Array
+                                        (
+                                            [sPhoneNo] => +79041707778
+                                            [sMessageText] => Анатолий, спасибо, что обратились в Атомстройкомплекс. Ждем вас по адресу: Беспроцентная рассрочка и скидка при 100 % оплате по ЖК "REPIN TOWERS". Жду Вас по адресу: ул. Белинского, д. 39. Отдел продаж "АТОМСТРОЙКОМПЛЕКС" .  07.06.2021 в 09:25 Ваш менеджер: Мария Кучеренко Тел.: 89221812351 E-mail: kucherenko@atomsk.ru Сайт: www.atomstroy.pro
+                                            [sSender] => Bitrix24 on Host.dom.ru
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/bitrix/www/local/webhooks/sendsms.php
+                    [line] => 150
+                    [function] => makeRequest
+                    [class] => SendSMS
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sPhoneNo] => +79041707778
+                                    [sMessageText] => Анатолий, спасибо, что обратились в Атомстройкомплекс. Ждем вас по адресу: Беспроцентная рассрочка и скидка при 100 % оплате по ЖК "REPIN TOWERS". Жду Вас по адресу: ул. Белинского, д. 39. Отдел продаж "АТОМСТРОЙКОМПЛЕКС" .  07.06.2021 в 09:25 Ваш менеджер: Мария Кучеренко Тел.: 89221812351 E-mail: kucherenko@atomsk.ru Сайт: www.atomstroy.pro
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/bitrix/www/local/webhooks/sendsms.php
+                    [line] => 183
+                    [function] => send
+                    [class] => SendSMS
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [faultstring] => Серверу не удалось обработать запрос. ---> Ссылка на объект не указывает на экземпляр объекта.
+    [faultcode] => soap:Server
+    [detail] => 
+)
+
+------------------------
+
+------------------------
+2021.06.07 7:29:22
+DEBUG
+SoapFault Object
+(
+    [message:protected] => Серверу не удалось обработать запрос. ---> Ссылка на объект не указывает на экземпляр объекта.
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => /home/bitrix/www/local/webhooks/sendsms.php
+    [line:protected] => 71
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/bitrix/www/local/webhooks/sendsms.php
+                    [line] => 71
+                    [function] => __soapCall
+                    [class] => SoapClient
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => SendCrmMessage
+                            [1] => Array
+                                (
+                                    [SendCrmMessage] => Array
+                                        (
+                                            [sPhoneNo] => +79222280552
+                                            [sMessageText] => Евгений, спасибо, что обратились в Атомстройкомплекс. Ждем вас по адресу: Беспроцентная рассрочка и скидка при 100 % оплате по ЖК "REPIN TOWERS". Отдел продаж "АТОМСТРОЙКОМПЛЕКС" .  07.06.2021 в 09:30 Ваш менеджер: Мария Кучеренко Тел.: 89221812351 E-mail: kucherenko@atomsk.ru Сайт: www.atomstroy.pro
+                                            [sSender] => Bitrix24 on Host.dom.ru
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/bitrix/www/local/webhooks/sendsms.php
+                    [line] => 150
+                    [function] => makeRequest
+                    [class] => SendSMS
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sPhoneNo] => +79222280552
+                                    [sMessageText] => Евгений, спасибо, что обратились в Атомстройкомплекс. Ждем вас по адресу: Беспроцентная рассрочка и скидка при 100 % оплате по ЖК "REPIN TOWERS". Отдел продаж "АТОМСТРОЙКОМПЛЕКС" .  07.06.2021 в 09:30 Ваш менеджер: Мария Кучеренко Тел.: 89221812351 E-mail: kucherenko@atomsk.ru Сайт: www.atomstroy.pro
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/bitrix/www/local/webhooks/sendsms.php
+                    [line] => 183
+                    [function] => send
+                    [class] => SendSMS
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [faultstring] => Серверу не удалось обработать запрос. ---> Ссылка на объект не указывает на экземпляр объекта.
+    [faultcode] => soap:Server
+    [detail] => 
+)
+
+------------------------
+
+------------------------
+2021.06.07 7:29:48
+DEBUG
+SoapFault Object
+(
+    [message:protected] => Серверу не удалось обработать запрос. ---> Ссылка на объект не указывает на экземпляр объекта.
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => /home/bitrix/www/local/webhooks/sendsms.php
+    [line:protected] => 71
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/bitrix/www/local/webhooks/sendsms.php
+                    [line] => 71
+                    [function] => __soapCall
+                    [class] => SoapClient
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => SendCrmMessage
+                            [1] => Array
+                                (
+                                    [SendCrmMessage] => Array
+                                        (
+                                            [sPhoneNo] => +79022659183
+                                            [sMessageText] => Ольга, спасибо, что обратились в Атомстройкомплекс. Ждем вас по адресу: Беспроцентная рассрочка и скидка при 100 % оплате по ЖК "REPIN TOWERS". Отдел продаж "АТОМСТРОЙКОМПЛЕКС" .  07.06.2021 в 09:30 Ваш менеджер: Мария Кучеренко Тел.: 89221812351 E-mail: kucherenko@atomsk.ru Сайт: www.atomstroy.pro
+                                            [sSender] => Bitrix24 on Host.dom.ru
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/bitrix/www/local/webhooks/sendsms.php
+                    [line] => 150
+                    [function] => makeRequest
+                    [class] => SendSMS
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sPhoneNo] => +79022659183
+                                    [sMessageText] => Ольга, спасибо, что обратились в Атомстройкомплекс. Ждем вас по адресу: Беспроцентная рассрочка и скидка при 100 % оплате по ЖК "REPIN TOWERS". Отдел продаж "АТОМСТРОЙКОМПЛЕКС" .  07.06.2021 в 09:30 Ваш менеджер: Мария Кучеренко Тел.: 89221812351 E-mail: kucherenko@atomsk.ru Сайт: www.atomstroy.pro
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/bitrix/www/local/webhooks/sendsms.php
+                    [line] => 183
+                    [function] => send
+                    [class] => SendSMS
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [faultstring] => Серверу не удалось обработать запрос. ---> Ссылка на объект не указывает на экземпляр объекта.
+    [faultcode] => soap:Server
+    [detail] => 
+)
+
+------------------------
+
+------------------------
+2021.06.07 7:30:14
+DEBUG
+SoapFault Object
+(
+    [message:protected] => Серверу не удалось обработать запрос. ---> Ссылка на объект не указывает на экземпляр объекта.
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => /home/bitrix/www/local/webhooks/sendsms.php
+    [line:protected] => 71
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/bitrix/www/local/webhooks/sendsms.php
+                    [line] => 71
+                    [function] => __soapCall
+                    [class] => SoapClient
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => SendCrmMessage
+                            [1] => Array
+                                (
+                                    [SendCrmMessage] => Array
+                                        (
+                                            [sPhoneNo] => 89049893863
+                                            [sMessageText] => Уважаемый клиент , спасибо, что обратились в Атомстройкомплекс. Ждем вас по адресу: Беспроцентная рассрочка и скидка при 100 % оплате по ЖК "REPIN TOWERS". Отдел продаж "АТОМСТРОЙКОМПЛЕКС" .  07.06.2021 в 09:30 Ваш менеджер: Мария Кучеренко Тел.: 89221812351 E-mail: kucherenko@atomsk.ru Сайт: www.atomstroy.pro
+                                            [sSender] => Bitrix24 on Host.dom.ru
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/bitrix/www/local/webhooks/sendsms.php
+                    [line] => 150
+                    [function] => makeRequest
+                    [class] => SendSMS
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sPhoneNo] => 89049893863
+                                    [sMessageText] => Уважаемый клиент , спасибо, что обратились в Атомстройкомплекс. Ждем вас по адресу: Беспроцентная рассрочка и скидка при 100 % оплате по ЖК "REPIN TOWERS". Отдел продаж "АТОМСТРОЙКОМПЛЕКС" .  07.06.2021 в 09:30 Ваш менеджер: Мария Кучеренко Тел.: 89221812351 E-mail: kucherenko@atomsk.ru Сайт: www.atomstroy.pro
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/bitrix/www/local/webhooks/sendsms.php
+                    [line] => 183
+                    [function] => send
+                    [class] => SendSMS
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [faultstring] => Серверу не удалось обработать запрос. ---> Ссылка на объект не указывает на экземпляр объекта.
+    [faultcode] => soap:Server
+    [detail] => 
+)
+
+------------------------
+
+------------------------
+2021.06.07 7:30:48
+DEBUG
+SoapFault Object
+(
+    [message:protected] => Серверу не удалось обработать запрос. ---> Ссылка на объект не указывает на экземпляр объекта.
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => /home/bitrix/www/local/webhooks/sendsms.php
+    [line:protected] => 71
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/bitrix/www/local/webhooks/sendsms.php
+                    [line] => 71
+                    [function] => __soapCall
+                    [class] => SoapClient
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => SendCrmMessage
+                            [1] => Array
+                                (
+                                    [SendCrmMessage] => Array
+                                        (
+                                            [sPhoneNo] => +79221819991
+                                            [sMessageText] => Роман, спасибо, что обратились в Атомстройкомплекс. Ждем вас по адресу: Беспроцентная рассрочка и скидка при 100 % оплате по ЖК "REPIN TOWERS". Отдел продаж "АТОМСТРОЙКОМПЛЕКС" .  07.06.2021 в 09:30 Ваш менеджер: Мария Кучеренко Тел.: 89221812351 E-mail: kucherenko@atomsk.ru Сайт: www.atomstroy.pro
+                                            [sSender] => Bitrix24 on Host.dom.ru
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/bitrix/www/local/webhooks/sendsms.php
+                    [line] => 150
+                    [function] => makeRequest
+                    [class] => SendSMS
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sPhoneNo] => +79221819991
+                                    [sMessageText] => Роман, спасибо, что обратились в Атомстройкомплекс. Ждем вас по адресу: Беспроцентная рассрочка и скидка при 100 % оплате по ЖК "REPIN TOWERS". Отдел продаж "АТОМСТРОЙКОМПЛЕКС" .  07.06.2021 в 09:30 Ваш менеджер: Мария Кучеренко Тел.: 89221812351 E-mail: kucherenko@atomsk.ru Сайт: www.atomstroy.pro
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/bitrix/www/local/webhooks/sendsms.php
+                    [line] => 183
+                    [function] => send
+                    [class] => SendSMS
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [faultstring] => Серверу не удалось обработать запрос. ---> Ссылка на объект не указывает на экземпляр объекта.
+    [faultcode] => soap:Server
+    [detail] => 
+)
+
+------------------------
+
+------------------------
+2021.06.07 7:31:36
+DEBUG
+SoapFault Object
+(
+    [message:protected] => Серверу не удалось обработать запрос. ---> Ссылка на объект не указывает на экземпляр объекта.
+    [string:Exception:private] => 
+    [code:protected] => 0
+    [file:protected] => /home/bitrix/www/local/webhooks/sendsms.php
+    [line:protected] => 71
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /home/bitrix/www/local/webhooks/sendsms.php
+                    [line] => 71
+                    [function] => __soapCall
+                    [class] => SoapClient
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => SendCrmMessage
+                            [1] => Array
+                                (
+                                    [SendCrmMessage] => Array
+                                        (
+                                            [sPhoneNo] => 89022624333
+                                            [sMessageText] => Инна , спасибо, что обратились в Атомстройкомплекс. Ждем вас по адресу: Беспроцентная рассрочка и скидка при 100 % оплате по ЖК "REPIN TOWERS". Жду Вас по адресу: ул. Белинского, д. 39. Отдел продаж "АТОМСТРОЙКОМПЛЕКС" .  08.06.2021 в 09:30 Ваш менеджер: Мария Кучеренко Тел.: 89221812351 E-mail: kucherenko@atomsk.ru Сайт: www.atomstroy.pro
+                                            [sSender] => Bitrix24 on Host.dom.ru
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /home/bitrix/www/local/webhooks/sendsms.php
+                    [line] => 150
+                    [function] => makeRequest
+                    [class] => SendSMS
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [sPhoneNo] => 89022624333
+                                    [sMessageText] => Инна , спасибо, что обратились в Атомстройкомплекс. Ждем вас по адресу: Беспроцентная рассрочка и скидка при 100 % оплате по ЖК "REPIN TOWERS". Жду Вас по адресу: ул. Белинского, д. 39. Отдел продаж "АТОМСТРОЙКОМПЛЕКС" .  08.06.2021 в 09:30 Ваш менеджер: Мария Кучеренко Тел.: 89221812351 E-mail: kucherenko@atomsk.ru Сайт: www.atomstroy.pro
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /home/bitrix/www/local/webhooks/sendsms.php
+                    [line] => 183
+                    [function] => send
+                    [class] => SendSMS
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [faultstring] => Серверу не удалось обработать запрос. ---> Ссылка на объект не указывает на экземпляр объекта.
+    [faultcode] => soap:Server
+    [detail] => 
+)
+
+------------------------
